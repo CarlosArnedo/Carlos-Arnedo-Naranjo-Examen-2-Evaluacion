@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(255, 255, 185);
+}
+
+.titulo1{
+background-color: rgb(255, 178, 147);
+color: white;
+font-family: "Akaya";
+text-align: center;
+text-shadow: orangered 5px -2px;
+}
+
+@font-face {
+    font-family: "Akaya";
+    src: url(Akaya_Kanadaka/AkayaKanadaka-Regular.ttf);
+}
+
+.caja1{
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 130);
+    border: 5px solid orangered;
+    border-style: dashed;
+}
+
+.enlaces{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: orangered;
+    
+}
+a:hover{
+    opacity: 5;
+    background-color: orangered;
+}
+
+a{
+    border: 2px solid orangered;
+    background-color: rgb(255, 178, 147);
+    opacity: 0.8;
+    color: white;
+}
+
+.caja2{
+    background-color: rgb(255, 178, 147);
+    color: orangered;
+    border: 5px solid orangered;
+    text-decoration: underline;
+    text-align: center;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-right-style:double ;
+    border-top-left-radius: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.Tcaja2{
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.final{
+    background-color:rgb(255, 255, 130);
+    color: orangered;
+    text-align: center;
+}
+
+
+.lista{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+}
+
+.sub{
+    list-style: inside upper-roman;
+    
+}
+
+.ini{
+    list-style-type: decimal;
+}
+
+.formulario{
+    background-color: rgb(255, 178, 147);
+    color: white;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 12.5%;
+    font-weight: bold;
+}
+
+.mf{
+    display: flex;
+}
+
+hr{
+    height: 1px;
+    background-color: white ;
+}
+
